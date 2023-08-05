@@ -68,3 +68,62 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+---------------------><---------------------
+
+## Déploiement sur GitHub Pages
+
+Vous pouvez accéder à cette application en ligne en utilisant GitHub Pages. Pour déployer cette application à partir du dossier `src`, suivez ces étapes :
+
+1. Assurez-vous que l'application fonctionne correctement localement en utilisant la commande `yarn start` pour lancer le serveur de développement.
+
+2. Dans le fichier `package.json` de ce projet, assurez-vous que la propriété `"homepage"` est configurée avec le lien GitHub Pages de la forme `https://votre-utilisateur.github.io/votre-repo`, en remplaçant "votre-utilisateur" par votre nom d'utilisateur GitHub et "votre-repo" par le nom de ce repository.
+
+3. Dans le terminal, exécutez la commande `yarn build` pour créer une version optimisée de l'application pour la production.
+
+4. Installez le package `gh-pages` en exécutant la commande `yarn add gh-pages`.
+
+5. Dans le fichier `package.json`, ajoutez le script `"deploy"` qui utilisera `gh-pages` pour déployer l'application sur GitHub Pages.
+
+6. Déployez l'application en exécutant la commande `yarn deploy`. Cela créera une branche `gh-pages` dans ce repository contenant les fichiers optimisés de l'application.
+
+7. Attendez quelques instants pour que GitHub Pages mette à jour votre site, puis accédez à l'application déployée en utilisant le lien GitHub Pages de la forme `https://votre-utilisateur.github.io/votre-repo`.
+
+N'hésitez pas à me poser des questions si vous avez besoin d'aide supplémentaire ou rencontrez des problèmes lors du processus de déploiement.
+
+---------------------><---------------------
+# Site Web - OpenClassrooms
+
+Ce projet a été créé dans le cadre d'une formation sur OpenClassrooms pour apprendre à développer des applications web avec React.
+
+## Description du Projet
+
+Ce site web a été réalisé à l'aide de Create React App, une plateforme de démarrage officielle de React développée par Facebook. Il s'agit d'un site de vente de plantes où les utilisateurs peuvent explorer différentes plantes, les ajouter au panier et effectuer des achats.
+
+Le site utilise React pour construire l'interface utilisateur et gérer les interactions avec l'utilisateur. Il est conçu pour être réactif, ce qui signifie qu'il s'adapte automatiquement à différentes tailles d'écran, offrant ainsi une expérience utilisateur fluide aussi bien sur les ordinateurs de bureau que sur les appareils mobiles.
+
+## Fonctionnalités du Site
+
+- Affichage de la liste des plantes disponibles pour la vente, avec leurs caractéristiques et prix.
+- Possibilité d'ajouter des plantes au panier en spécifiant la quantité souhaitée.
+- Vue du panier avec la liste des articles sélectionnés et le montant total à payer.
+- Possibilité de supprimer des articles du panier ou de modifier leur quantité.
+
+## Installation et Lancement du Projet
+
+Pour utiliser ce projet localement, suivez les étapes suivantes :
+
+1. Cloner le dépôt GitHub sur votre machine locale.
+2. Assurez-vous que Node.js et yarn sont installés sur votre système.
+3. Dans le dossier du projet, exécutez la commande `yarn install` pour installer les dépendances.
+4. Ensuite, lancez le projet avec la commande `yarn start`. Le site web sera accessible à l'adresse [http://localhost:3000](http://localhost:3000) dans votre navigateur.
+
+## En savoir plus
+
+Pour en savoir plus sur React et la création d'applications web avec Create React App, consultez la documentation officielle de React : [React Documentation](https://reactjs.org/).
+
+Ce projet a été réalisé dans le cadre de la formation sur OpenClassrooms. Si vous souhaitez en savoir plus sur la formation et les projets réalisés, consultez [OpenClassrooms](https://openclassrooms.com/).
+
+N'hésitez pas à explorer le code source du projet pour mieux comprendre comment il fonctionne et à apporter vos propres améliorations !
+
+Merci d'avoir visité ce projet ! 😊
